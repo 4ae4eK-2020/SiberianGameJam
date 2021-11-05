@@ -7,9 +7,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lose.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenrator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlaneMove.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Lose.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20UIjDYrClgLvs7VsHM8bTDPysr" />
@@ -54,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636092880825</updated>
-      <workItem from="1636092889351" duration="1114000" />
+      <workItem from="1636092889351" duration="13364000" />
     </task>
     <servers />
   </component>
