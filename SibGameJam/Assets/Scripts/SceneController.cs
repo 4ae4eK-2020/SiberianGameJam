@@ -8,7 +8,11 @@ public class SceneController : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && SceneManager.GetActiveScene().name != "MainMenu") LoadMainMenu();
+        //if(Input.GetKeyDown(KeyCode.Escape) && SceneManager.GetActiveScene().name != "MainMenu") LoadMainMenu();
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Pause();
+        }
     }
     
     private void LoadMainMenu()
@@ -18,6 +22,7 @@ public class SceneController : MonoBehaviour
     
     public void LoadScene(string _sceneName)
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(_sceneName);
     }
 
