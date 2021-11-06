@@ -16,10 +16,10 @@ public class PowerInput : MonoBehaviour
 
     private float Timer;
 
-    public void Start()
+    /*public void Start()
     {
         publicPower = 1;
-        playerController.Acceleration();
+        //playerController.Acceleration();
         publicPower = 0;
     }
 
@@ -37,11 +37,12 @@ public class PowerInput : MonoBehaviour
             {
                 if (power > 1) power = 1;
                 publicPower = power;
-                playerController.Acceleration();
+                //playerController.Acceleration();
                 power = 0;
                 Timer = 0;
             }
         }
         powerBar.value = power;
     }
+    */
 }
