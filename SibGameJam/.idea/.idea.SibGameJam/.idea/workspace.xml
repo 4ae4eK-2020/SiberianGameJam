@@ -30,22 +30,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lose.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenrator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlaneMove.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Lose.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PointController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PowerInput.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Lose.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20UIjDYrClgLvs7VsHM8bTDPysr" />
@@ -98,6 +100,7 @@
       <workItem from="1636200651195" duration="2064000" />
       <workItem from="1636203375740" duration="1909000" />
       <workItem from="1636208915727" duration="782000" />
+      <workItem from="1636210513106" duration="1389000" />
     </task>
     <servers />
   </component>
@@ -116,6 +119,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

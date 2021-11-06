@@ -8,7 +8,7 @@ public class SceneController : MonoBehaviour
 
     private void Update()
     {
-        //if(Input.GetKeyDown(KeyCode.Escape) && SceneManager.GetActiveScene().name != "MainMenu") LoadMainMenu();
+        if(Input.GetKeyDown(KeyCode.Escape) && SceneManager.GetActiveScene().name != "MainMenu") LoadMainMenu();
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             Pause();

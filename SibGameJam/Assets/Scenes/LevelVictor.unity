@@ -2141,7 +2141,6 @@ MonoBehaviour:
   center: {x: 0, y: 0, z: -0.5}
   impulseMagnitude: 500
   speed: 0.04
-  powerInput: {fileID: 1677291422}
 --- !u!1 &1677291421
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,8 +2151,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1677291423}
   - component: {fileID: 1677291422}
-  - component: {fileID: 1677291425}
-  - component: {fileID: 1677291424}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -2191,33 +2188,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1677291424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677291421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d79f4dadc5db47f4ebee4e6ac2912de9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Points: 0
-  score: {fileID: 95475515}
---- !u!114 &1677291425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677291421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 262d045640b2e1d4c8d487e585bad3d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetFPS: 60
 --- !u!1 &1712800931
 GameObject:
   m_ObjectHideFlags: 0

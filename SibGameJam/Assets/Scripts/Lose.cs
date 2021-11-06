@@ -7,22 +7,17 @@ public class Lose : MonoBehaviour
 
    [SerializeField] private PlayerController playerController;
 
-
-   /*
    void Start()
    {
-      textMeshPro = GameObject.Find("Lose").transform.GetChild(0).gameObject;
+      lose = GameObject.Find("Lose").transform.GetChild(0).gameObject;
+      playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
    }
-   */
    
    private void OnCollisionEnter(Collision other)
    {
       if(other.gameObject.CompareTag("Player"))
       {
-         //textMeshPro.SetActive(true);
-         //other.gameObject.GetComponent<PlayerController>().enabled = false;
          Lost();
-         
       }
    }
 
