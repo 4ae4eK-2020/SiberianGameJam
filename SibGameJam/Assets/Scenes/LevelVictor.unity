@@ -2064,9 +2064,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8579278237352538392, guid: 805864f7075d17c4c90b905474e7e7c2, type: 3}
-  - {fileID: 6160459833235056604, guid: 805864f7075d17c4c90b905474e7e7c2, type: 3}
-  - {fileID: -2056186190569766889, guid: 805864f7075d17c4c90b905474e7e7c2, type: 3}
+  - {fileID: -8579278237352538392, guid: 9f8f9e776824fd44193bbdf7f41bdb5f, type: 3}
+  - {fileID: 6160459833235056604, guid: 9f8f9e776824fd44193bbdf7f41bdb5f, type: 3}
+  - {fileID: -2056186190569766889, guid: 9f8f9e776824fd44193bbdf7f41bdb5f, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2094,7 +2094,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676077161}
-  m_Mesh: {fileID: -2228417370725966487, guid: 805864f7075d17c4c90b905474e7e7c2, type: 3}
+  m_Mesh: {fileID: -2228417370725966487, guid: ff32ebe86c0894947bfafc381402f6f1, type: 3}
 --- !u!4 &1676077165
 Transform:
   m_ObjectHideFlags: 0
@@ -2141,7 +2141,7 @@ MonoBehaviour:
   center: {x: 0, y: 0, z: -0.5}
   impulseMagnitude: 500
   speed: 0.04
-  _powerInput: {fileID: 1677291422}
+  powerInput: {fileID: 1677291422}
 --- !u!1 &1677291421
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,7 +2170,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1677291421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c6a66585afaf8144b038da9a9bbd09d, type: 3}
+  m_Script: {fileID: 11500000, guid: ced9b8fcb8380e94799d4fd91f8e8632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   power: 0
@@ -2200,11 +2200,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1677291421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a043e66f0582ce44939a8c6dc580a5a, type: 3}
+  m_Script: {fileID: 11500000, guid: d79f4dadc5db47f4ebee4e6ac2912de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 0
-  scoreText: {fileID: 95475515}
+  Points: 0
+  score: {fileID: 95475515}
 --- !u!114 &1677291425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2214,7 +2214,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1677291421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baba507005ac1d049b209ea26cc2e5a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 262d045640b2e1d4c8d487e585bad3d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _targetFPS: 60
@@ -2471,7 +2471,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868892094}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2df04d6d3f439284c919d415587f73b3, type: 3}
   m_Name: 
@@ -2482,6 +2482,8 @@ MonoBehaviour:
   - {fileID: 5026573374302098270, guid: fc5e1ae3252db874d9e7cf9ec834f1b4, type: 3}
   - {fileID: 5026573374302098270, guid: acd8aff5eadffa343bcb18c0962451d5, type: 3}
   step: 10
+  offset: {x: 0, y: 0, z: 0}
+  direction: 0
 --- !u!1 &2095567345
 GameObject:
   m_ObjectHideFlags: 0
