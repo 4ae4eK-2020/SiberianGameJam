@@ -19,10 +19,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenrator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlaneMove.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Lose.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20UIjDYrClgLvs7VsHM8bTDPysr" />
@@ -70,6 +70,8 @@
       <workItem from="1636092889351" duration="13364000" />
       <workItem from="1636116026998" duration="1763000" />
       <workItem from="1636194688999" duration="132000" />
+      <workItem from="1636200651195" duration="2064000" />
+      <workItem from="1636203375740" duration="1909000" />
     </task>
     <servers />
   </component>
