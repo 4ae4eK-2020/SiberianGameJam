@@ -2,29 +2,16 @@
 
 public class Lose : MonoBehaviour
 {
-   [SerializeField] private GameObject lose;
+   [SerializeField] private GameObject losePanel;
    private bool isCollided;
 
    [SerializeField] private PlayerController playerController;
 
-   void Start()
-   {
-      lose = GameObject.Find("Lose").transform.GetChild(0).gameObject;
-      playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
-   }
    
-   private void OnCollisionEnter(Collision other)
-   {
-      if(other.gameObject.CompareTag("Player"))
-      {
-         Lost();
-      }
-   }
-
-   private void Lost()
+   public void Lost()
    {
       playerController.enabled = false;
-      lose.SetActive(true);
+      losePanel.SetActive(true);
       Time.timeScale = 0;
    }
 }

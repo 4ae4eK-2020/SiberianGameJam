@@ -9,7 +9,7 @@ public class Destroyer : MonoBehaviour
         Debug.Log("Trigger exit");
         if (other.gameObject.CompareTag("Player"))
         {
-            textMeshPro.SetActive(true);
+            //textMeshPro.SetActive(true);
             other.gameObject.GetComponent<PlayerController>().enabled = false;
         }
         else

@@ -16,11 +16,13 @@ public class PowerInput : MonoBehaviour
 
     private float Timer;
 
-    /*public void Start()
+    public void Start()
     {
+        /*
         publicPower = 1;
-        //playerController.Acceleration();
+        playerController.Acceleration();
         publicPower = 0;
+        */
     }
 
     public void Update()
@@ -31,18 +33,17 @@ public class PowerInput : MonoBehaviour
         {
             if (Input.GetKey("space"))
             {
-                power += Time.deltaTime * 2;
+                power += Time.deltaTime / 2;
             }
             else if (Input.GetKeyUp("space"))
             {
                 if (power > 1) power = 1;
                 publicPower = power;
-                //playerController.Acceleration();
+                playerController.Acceleration();
                 power = 0;
                 Timer = 0;
             }
         }
         powerBar.value = power;
     }
-    */
 }
